@@ -1,0 +1,43 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+/* shared styles */
+.display-flex{
+  display: flex;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* shared collor */
+
+/* dark1 */
+.text-black{
+   color: #000000;
+}
+.text-orange{
+    color: #E95A08;
+}
+.text-gray{
+    color: #8987A1;
+}
+
+/* navbar related styled */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nave-item{
+    list-style: none;
+}
+.nave-link{
+    text-decoration: none;
+    margin: 25px;
+}
