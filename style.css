@@ -136,16 +136,18 @@ margin-top: 15px;
 }
 
 /* Lover-section */
-/*
+
 .lover-section{
     gap: 50px;
     margin-top: 120px;
     align-items: center;
+    /* position: relative; */
 }
 .lover-left{
   flex: 1;
   width: 100%;
   height: auto;
+  position: relative;
 }
 .lover-right{
    flex: 1;
@@ -159,13 +161,14 @@ margin-top: 15px;
     margin: 30px;
 }
 .lovers-h1{
-   font-size: 3.25rem;
+   font-size: 3rem;
    font-weight: 700;
 }
 .trusted-icon{
     width: 286px;
     height: auto;
     position: absolute;
-    margin: auto;
-    transform: translateX(-50%);
-}/*
+    top: -20%;
+    right: -20%;
+    transform: translateX(-20%-20%);
+}
