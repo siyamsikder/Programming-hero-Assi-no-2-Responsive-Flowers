@@ -1,43 +1,171 @@
-*{
- padding: 0;
- margin: 0;
- box-sizing: border-box;
+.open-sans-f {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* shared styles */
-.display-flex{
-  display: flex;
+.display-flex {
+    display: flex;
 }
 
 .container{
     max-width: 1140px;
     margin: auto;
-    margin-top: 20px;
 }
 
 /* shared collor */
 
 /* dark1 */
-.text-black{
-   color: #000000;
+.text-black {
+    color: #000000;
 }
-.text-orange{
+
+.text-orange {
     color: #E95A08;
 }
-.text-gray{
+
+.text-gray {
     color: #8987A1;
+}
+
+.text-gray2 {
+    color: rgba(0, 0, 0, 0.5);
 }
 
 /* navbar related styled */
 
-.navbar{
+.navbar {
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
 }
-.nave-item{
+
+.nave-item {
     list-style: none;
 }
-.nave-link{
+
+.nave-link {
     text-decoration: none;
     margin: 25px;
 }
+
+/* herro section */
+.banner {
+    align-items: end;
+    margin-top: 120px;
+}
+
+.banner-h {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.banner-p {
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.banner-left {
+    flex: 1;
+}
+.banner-right{
+    flex: 1;
+}
+        /* our plants products  */
+
+.plants{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    text-align: center;
+
+}
+.plant-top-p{
+    margin-top:16px ;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.plant-top-h1{
+      font-size: 3.25rem;
+}
+
+/* plants items */
+.plants-items{
+   text-align: center;
+   margin-top: 49px;
+}
+.plant-h5{
+   font-size: 1.25rem;
+   font-weight: 500;
+   margin-top: 20px;
+   
+}
+.plant-h4{
+     margin-top: 10px;
+     font-weight: 700;
+     font-size: 1.25rem;
+}
+.plant-h2-bold{
+font-weight: 700;
+margin-top: 15px;
+
+}
+.primarry-btn{
+    margin-top: 15px;
+    padding: 19px 80px;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    width: 100%;
+}
+.plant-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+/* Lover-section */
+/*
+.lover-section{
+    gap: 50px;
+    margin-top: 120px;
+    align-items: center;
+}
+.lover-left{
+  flex: 1;
+  width: 100%;
+  height: auto;
+}
+.lover-right{
+   flex: 1;
+   width: 100%;
+   height: auto;
+   
+}
+.lovers-li{
+    font-size:1.25rem ;
+    font-weight: 500;
+    margin: 30px;
+}
+.lovers-h1{
+   font-size: 3.25rem;
+   font-weight: 700;
+}
+.trusted-icon{
+    width: 286px;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    transform: translateX(-50%);
+}/*
